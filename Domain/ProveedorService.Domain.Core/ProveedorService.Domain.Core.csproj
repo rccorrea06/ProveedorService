@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
+    <PackageReference Include="MongoDB.Bson" Version="2.28.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Proveedor.Domain.Entities\Proveedor.Domain.Entities.csproj" />
+    <ProjectReference Include="..\ProveedorService.Domain.Dto\ProveedorService.Domain.Dto.csproj" />
+    <ProjectReference Include="..\ProveedorService.Domain.Utility\ProveedorService.Domain.Utility.csproj" />
+  </ItemGroup>
+
+</Project>
